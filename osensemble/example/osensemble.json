@@ -1,0 +1,35 @@
+{
+  "osenemble": {
+    "title": "Quantum Theory of Love",
+    "date": "2014-02-14",
+    "version": "0.1",
+    "contributor": "Lei Ma",
+    "links": {
+      "github": "https://github.com/emptymalei/QuantumLove"
+    },
+    "structure": {
+      "osensemble.json": "configuration file of the whole package",
+      "project": {
+        "project.json": "configuration of project folder"
+      },
+      "results": {
+        "results.json": "configuration of results folder",
+        "popular": {
+          "blogs": "blog articles"
+        },
+        "articles": {
+          "latex": "latex source and compilations"
+        }
+      },
+      "tools": {
+        "tools.json": "configuration of tools folder"
+      },
+      "references": {
+        "references.json": "configuration of references folder"
+      },
+      "other": {
+        "other.json": "configuration of other folder"
+      }
+    }
+  }
+}
